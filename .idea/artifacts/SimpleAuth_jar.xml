@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="SimpleAuth:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SimpleAuth_jar</output-path>
+    <root id="archive" name="SimpleAuth.jar">
+      <element id="module-output" name="SimpleAuth" />
+    </root>
+  </artifact>
+</component>
