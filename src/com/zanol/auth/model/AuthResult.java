@@ -27,4 +27,9 @@ public class AuthResult {
     public void setMessage(String message) {
         this.message = message;
     }
+
+    public void returnInfo() {
+        System.out.println(this.message);
+        System.exit(this.code);
+    }
 }

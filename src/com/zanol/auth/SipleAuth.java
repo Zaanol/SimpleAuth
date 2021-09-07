@@ -32,8 +32,7 @@ public class SipleAuth {
                 result = INTERNAL_ERROR;
         }
 
-        System.out.println(result.getMessage());
-        System.exit(result.getCode());
+        result.returnInfo();
     }
 
 
