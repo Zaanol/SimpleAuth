@@ -103,7 +103,7 @@ public class BruteForceEngine {
         System.out.println("Saving password: " + password);
 
         try {
-            File teste = new File("assets\\passwordsFound.txt");
+            File teste = new File("passwordsFound.txt");
             teste.createNewFile();
 
             float elapsed = (System.currentTimeMillis() - start) / 1000;
