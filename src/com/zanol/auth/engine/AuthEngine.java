@@ -10,7 +10,7 @@ import java.util.Optional;
 public class AuthEngine {
 
     private static final List<User> REGISTERED_USERS = List.of(
-            new User("INSERTCODE", "INSERTPASSWORD")
+            new User("administrador", "23aId3a")
     );
 
     public static void authenticate(User user) {
